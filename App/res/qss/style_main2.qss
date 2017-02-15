@@ -1,0 +1,12 @@
+﻿
+/*
+FileName: style_main.qss
+Date: 2015-10-25;
+*/
+
+/*label*/
+QLabel{
+        color: red;
+		text-align: center;
+		border: 0px;
+}

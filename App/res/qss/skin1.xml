@@ -1,0 +1,9 @@
+<?xml version=' 1.0' encoding=' UTF-8'?>
+<skins>
+    <skin NO="default">
+        <name>style_main</name>
+    </skin>
+    <skin NO="2">
+        <name>style_main2</name>
+    </skin>
+</skins>

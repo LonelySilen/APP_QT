@@ -1,0 +1,199 @@
+﻿
+/*
+FileName: style_login.qss
+Date: 2015-10-25;
+*/
+
+QWidget#centerWindow{
+        border-image: url(:/login/res/images/LoginBack.png);
+        border: none;
+}
+
+QPushButton#closeBtn{
+	border-image: url(:/login/res/images/button-quit.svg);
+   	border:none;
+}
+QPushButton#closeBtn:hover{
+	border:none;
+	border-image: url(:/login/res/images/button-quit.svg);
+}
+QPushButton#closeBtn:pressed{
+	border:none;
+	border-image: url(:/login/res/images/button-quit.svg);
+}
+
+QPushButton#minBtn{
+	border-image: url(:/login/res/images/button-minimize.svg);
+	border:none;
+}
+QPushButton#minBtn:hover{
+	border:none;
+	border-image: url(:/login/res/images/button-minimize.svg);
+}
+QPushButton#minBtn:pressed{
+	border:none;
+	border-image: url(:/login/res/images/button-minimize.svg);
+}
+
+
+QPushButton#statusBtn{
+	
+	border:none;
+}
+
+
+QPushButton#loginBtn , QPushButton#login_button{
+    color: white;
+    font: bold 13pt;
+    border:none;
+    min-height: 40px;
+    min-width: 200px;
+	border-image: url(:/login/res/images/button-login.svg);
+}
+QPushButton#loginBtn:hover , QPushButton#login_button:hover{
+    color: lightgray;
+    border:none;
+	border-image: url(:/login/res/images/button-login-hover.svg);
+}
+QPushButton#loginBtn:pressed , QPushButton#login_button:pressed {
+    color: lightgray;
+    border:none;
+	border-image: url(:/login/res/images/button-login-press.svg);
+    padding-top: -15px;
+    padding-bottom: -17px;
+}
+
+QLabel#label_logo{
+	border-color: rgb(255, 120, 31);
+	background-image: url(:/login/res/images/title.png);
+}
+
+QLabel#label_avatar {
+	border-color: rgb(255, 120, 31);
+	border-image: url(:/login/res/images/avatar-border.svg);
+	background-image: url(:/login/res/images/avatar.png);
+}
+
+QLabel#label_name{
+	font-size:14pt;
+	color:#ff781f;
+}
+QLabel#label_pwd{
+	font-size:14pt;
+	color:#ff781f;
+}
+QLabel#label_info{
+	font-size:14pt;
+	color:#ff781f;
+}
+
+QComboBox#username {
+    
+    border: 1px solid gray;
+    border-radius: 3px;
+    padding: 1px 18px 1px 3px;
+
+}
+
+QComboBox#username:editable {
+    background: white;
+}
+
+QComboBox#username:!editable, QComboBox#username::drop-down:editable {
+	border:none;
+    background: white;
+}
+
+/* QComboBox gets the "on" state when the popup is open */
+QComboBox#username:!editable:on, QComboBox#username::drop-down:editable:on {
+    background: white;
+	border:none;
+}
+
+QComboBox#username:on { /* shift the text when the popup opens */
+    padding-top: 3px;
+    padding-left: 4px;
+}
+
+QComboBox#username::drop-down {
+    subcontrol-origin: padding;
+    subcontrol-position: top right;
+    width: 15px;
+
+    border-left-width: 1px;
+    border-left-color: darkgray;
+    border-left-style: solid; /* just a single line */
+    border-top-right-radius: 3px; /* same radius as the QComboBox */
+    border-bottom-right-radius: 3px;
+}
+
+QComboBox#username::down-arrow {
+
+	image: url(:/login/res/images/unfold_icon.png);
+}
+
+QComboBox#username::down-arrow:on { /* shift the arrow when popup is open */
+    top: 1px;
+    left: 10px;
+}
+
+QCheckBox {
+    spacing: 10px;
+	color: rgb(255, 120, 31);
+}
+
+QCheckBox::indicator {
+    width: 20px;
+    height: 20px;
+}
+
+QCheckBox::indicator:unchecked {
+   
+	image: url(:/login/res/images/checkBox-unselect.svg);
+}
+
+QCheckBox::indicator:unchecked:hover {
+ 
+	image: url(:/login/res/images/checkBox-unselect.svg);
+}
+
+QCheckBox::indicator:unchecked:pressed {
+    
+	image: url(:/login/res/images/checkBox-unselect.svg);
+}
+
+QCheckBox::indicator:checked {
+   
+	image: url(:/login/res/images/checkBox-select.svg);
+}
+
+QCheckBox::indicator:checked:hover {
+    
+	image: url(:/login/res/images/checkBox-hover.svg);
+}
+
+QCheckBox::indicator:checked:pressed {
+    
+	image: url(:/login/res/images/checkBox-hover.svg);
+}
+
+QCheckBox::indicator:indeterminate:hover {
+    
+	image: url(:/login/res/images/checkBox-hover.svg);
+}
+
+QCheckBox::indicator:indeterminate:pressed {
+  image: url(:/login/res/images/checkBox-hover.svg);
+}
+
+
+QProgressBar#progressBar {
+	background-color: rgb(52, 187, 231);
+    border: -1px solid;
+    border-radius: 5px;
+}
+
+QProgressBar#progressBar::chunk {
+   
+	background-color: rgb(255, 120, 31);
+}

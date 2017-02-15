@@ -1,0 +1,71 @@
+<RCC>
+    <qresource prefix="/">
+        <file>res/image/1.png</file>
+        <file>res/image/2.png</file>
+        <file>res/image/3.png</file>
+        <file>res/image/4.png</file>
+        <file>res/image/5.png</file>
+        <file>res/image/6.png</file>
+        <file>res/image/7.png</file>
+        <file>res/image/8.png</file>
+        <file>res/image/9.png</file>
+        <file>res/image/11.png</file>
+        <file>res/image/22.png</file>
+        <file>res/image/33.png</file>
+        <file>res/image/44.png</file>
+        <file>res/image/55.png</file>
+        <file>res/image/66.png</file>
+        <file>res/image/77.png</file>
+        <file>res/image/88.png</file>
+        <file>res/image/99.png</file>
+        <file>res/image/360logo.png</file>
+        <file>res/image/cai.png</file>
+        <file>res/image/cai2.png</file>
+        <file>res/image/close.png</file>
+        <file>res/image/close2.png</file>
+        <file>res/image/alpha.png</file>
+        <file>res/image/frame.png</file>
+        <file>res/image/max.png</file>
+        <file>res/image/max2.png</file>
+        <file>res/image/min.png</file>
+        <file>res/image/min2.png</file>
+        <file>res/qss/style_main.qss</file>
+		<file>res/qss/style_main2.qss</file>
+		<file>res/image/meinv.png</file>
+	</qresource>
+	<qresource prefix="/login">
+		<file>res/images/LoginBack.png</file>
+		<file>res/images/logo.png</file>
+		<file>res/images/imonline.png</file>
+		<file>res/images/imhidden.png</file>
+		<file>res/images/imbusy.png</file>
+		<file>res/images/imaway.png</file>
+		<file>res/images/imcallme.png</file>
+		<file>res/images/imsilent.png</file>
+		<file>res/images/status-online-1.svg</file>
+		<file>res/images/status-hidden-1.svg</file>
+		<file>res/images/status-busy-1.svg</file>
+		<file>res/images/status-away-1.svg</file>
+		<file>res/images/status-callme-1.svg</file>
+		<file>res/images/status-silent-1.svg</file>
+		
+		<file>res/images/button-quit.svg</file>
+		<file>res/images/button-minimize.svg</file>
+		<file>res/images/avatar-border.svg</file>
+		<file>res/images/avatar.png</file>
+		<file>res/images/title.png</file>
+		<file>res/images/unfold_icon.png</file>
+		<file>res/images/checkBox-unselect.svg</file>
+		<file>res/images/checkBox-select.svg</file>
+		<file>res/images/checkBox-hover.svg</file>
+		<file>res/images/button-login.svg</file>
+		<file>res/images/button-login-press.svg</file>
+		<file>res/images/button-login-hover.svg</file>
+		<file>res/qss/style_login.qss</file>
+    </qresource>
+	
+	<qresource prefix="/list">
+		<file>res/qss/style_list.qss</file>
+		<file>res/images/FriendBack2.png</file>
+	</qresource>
+</RCC>

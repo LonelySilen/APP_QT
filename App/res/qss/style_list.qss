@@ -1,0 +1,75 @@
+﻿/*
+FileName: style_login.qss
+Date: 2015-10-25;
+*/
+
+
+QPushButton#closeBtn{
+	border-image: url(:/login/res/images/button-quit.svg);
+   	border:none;
+}
+QPushButton#closeBtn:hover{
+	border:none;
+	border-image: url(:/login/res/images/button-quit.svg);
+}
+QPushButton#closeBtn:pressed{
+	border:none;
+	border-image: url(:/login/res/images/button-quit.svg);
+}
+
+QPushButton#minBtn{
+	border-image: url(:/login/res/images/button-minimize.svg);
+	border:none;
+}
+QPushButton#minBtn:hover{
+	border:none;
+	border-image: url(:/login/res/images/button-minimize.svg);
+}
+QPushButton#minBtn:pressed{
+	border:none;
+	border-image: url(:/login/res/images/button-minimize.svg);
+}
+
+
+QTabWidget::pane { /* The tab widget frame */
+	border-top: none;
+	background-color: rgb(255, 255, 255);
+}
+
+QTabWidget::tab-bar {
+    left: 0px; /* move to the right by 5px */
+	
+}
+
+/* Style the tab using the tab sub-control. Note that
+    it reads QTabBar _not_ QTabWidget */
+QTabBar::tab {
+
+ 	background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #EDEDED, stop: 0.4 #D0D0D0,
+                                stop: 0.5 #C8C8C8, stop: 1.0 #C3C3C3);
+	text-align:center;
+	width:93px;
+	height:30px;
+	border: none;
+	border-top-left-radius: 2px;
+	border-top-right-radius: 2px;
+	min-width: 8ex;
+	padding: 0px;
+}
+
+QTabBar::tab:hover {
+	 	background: qlineargradient(x1: 0, y1: 0, x2: 0, y2: 1,
+                                stop: 0 #DDDDDD, stop: 0.4 #DDDDDD,
+                                stop: 0.5 #D8D8D8, stop: 1.0 #D3D3D3);
+    
+}
+
+QTabBar::tab:selected {
+	background-color: rgb(255, 255, 255);
+   
+}
+
+QTabBar::tab:!selected {
+    margin-top: 0px; /* make non-selected tabs look smaller */
+}
